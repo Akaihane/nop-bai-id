@@ -1,0 +1,237 @@
+/* --------------------header-------------------- */
+.header{
+    padding: 32px 0;
+}
+.logo{
+    text-align: center;
+}
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100px;
+    color: rgb(153, 0, 0);
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav li{
+    margin: 0 25px;
+}
+.nav li a{
+    color: #021913;
+    font-size: 20px;
+}
+a:hover {
+    color: rgb(101, 125, 54);
+}
+/*-------------------------- main------------------ */
+/* banner */
+.banner{
+    height: 300px;
+    padding: 150px 0;
+    background: url("../img/12019092322052666.webp"), black;
+    background-size: cover;
+    background-position: 0 -550px;
+}
+.banner-img-1{
+    height: 505px;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    overflow: hidden;
+    border-radius: 30px;
+    
+}
+.banner-img-1 img{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.banner .col-8{
+    align-self: flex-end;
+}
+.padding-lc1{
+    padding-left: 8.33%;
+}
+.banner-content h1{
+    color: rgb(153, 0, 0);
+}
+.banner-content h2{
+    color: #021913;
+}
+.banner-content p{
+    color: rgb(141, 140, 140);
+}
+.push{
+    height: 400px;
+}
+/* Gallery */
+.Gallery{
+    padding: 30px 0;
+}
+.Gallery h1{
+    color: rgb(153, 0, 0);
+    padding-bottom: 10px;
+    position: absolute;
+    top: 160px;
+    left: 375px;
+}
+.Gallery .container{
+    position: relative;
+}
+.box{
+    margin: 50px 0;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    overflow: hidden;
+    border-radius: 30px;
+}
+.Gallery img{
+    width: 100%;
+}
+.Gallery p{
+    position: relative;
+    top: 200px;
+    left: 330px;
+}
+.thumb-1{
+    position: relative;
+    left: 35px;
+    top: 150px;
+    z-index: 20;
+}
+.thumb-2{
+    position: relative;
+    right: 35px;
+}
+.push-2{
+    height: 250px;
+}
+/* About */
+.About{
+    background-color: rgb(101, 125, 54);
+    padding: 25px 0;
+}
+.About-content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    /* color: rgb(255, 179, 0); */
+    /* color: rgb(101, 125, 54); */
+}
+.About h1{
+    color: white;
+}
+/* Album */
+.Album{
+    padding: 50px 0;
+}
+.Album h1{
+    margin: 40px 0;
+    text-align: center;
+}
+.Album .col-4{
+    overflow: hidden;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+}
+.Album img{
+    width: 100%;
+}
+.t-1{
+    position: relative;
+    left: 30px;
+}
+.card1 img{
+    width: 100%;
+}
+.t-2{
+    position: relative;
+    top: 100px;
+}
+.t-3{
+    position: relative;
+    right: 30px;
+}
+/* Support */
+.Support{
+    padding: 100px 0;
+}
+.Support .block1{
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px 0;
+    text-align: center;
+}
+.Support .block1 h2{
+    color: rgb(153, 0, 0);
+}
+.Support p{
+    color: rgb(141, 140, 140);
+}
+.Support .block2{
+    width: 600px;
+    margin: 0 auto;
+}
+.box45{
+    margin: 0 30px;
+    width: 236px;
+    background-color: rgb(101, 125, 54);
+    padding: 30px 30px 60px 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+}
+.Support h1{
+    line-height: 40px;
+}
+.Support h2{
+    margin-bottom: 24px;
+}
+.btn{
+    margin: 15px 0;
+    padding: 12px 32px;
+    background-color: white;
+    color: #021913;
+    text-decoration: none;
+    border-radius: 30px;
+}
+/* footer */
+.footer{
+    background-color: rgb(101, 125, 54);
+    padding: 30px 0;
+}
+.footer .logo{
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer .logo a{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+.list-menu{
+    width: 28%;
+    vertical-align: middle;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin: 4px 0;
+}
+.footer ul a{
+    color: #021913;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cp{
+    text-align: center;
+    line-height: 200%;
+}
